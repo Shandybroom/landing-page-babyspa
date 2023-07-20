@@ -1,0 +1,17 @@
+@use 'abstracts/colors' as warna;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: warna.$backgroundColor;
+    background: url('../images/hero_frame.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
