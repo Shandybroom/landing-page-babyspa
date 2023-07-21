@@ -10,8 +10,57 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: warna.$backgroundColor;
-    background: url('../images/hero_frame.png');
-    background-repeat: no-repeat;
+    background-image: url('../images/bg_img');
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.navbar-primary {
+    background-color: warna.$primaryColor;
+}
+
+#hero {
+    background-color: warna.$primaryColor;
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+}
+
+.picture {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    right: 100px;
+    top: 90px;
+}
+
+.tagline {
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 20%;
+    left: 10%;
+
+    h1 {
+        font-size: 5em;
+        text-align: left;
+    }
+}
+
+.custom-btn {
+    background-color: warna.$tertiaryColor;
+    border-radius: 15px;
+    padding: 8px 22px;
+    border: none;
+    width: 200px;
+    height: 60px;
+    color: warna.$textColor;
+    font-size: large;
+    font-weight: bold;
 }
